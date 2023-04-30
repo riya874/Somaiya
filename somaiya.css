@@ -1,0 +1,78 @@
+html, body {
+margin: 0px;
+padding: 0px;
+}
+body {
+font-family: "Proxima Nova Regular";
+height: 100vh;
+width: 100vw;
+}
+.header-flex {
+background-color: red;
+display: flex;
+justify-content: space-between;
+font-family: "Helvetica";
+}
+#title {
+color: white;
+border-style: outset;
+border-color: white;
+padding: 10px;
+}
+#image {
+padding: 10px;
+}
+.nav-bar {
+background-color: red;
+display: flex;
+justify-content: space-around;
+padding: 10px;
+}
+.nav-bar a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+}
+.nav-bar a:hover{
+color: red;
+background-color: white;
+padding: 10px;
+}
+.main-grid {
+display: grid;
+grid-gap: 10px;
+grid-template-rows: auto;
+grid-template-columns: 1fr 8fr;
+height: 100vh;
+}
+.aside {
+background-color: gray;
+padding: 10px;
+}
+.aside a{
+text-decoration: none;
+color: white;
+}
+.aside a:hover{
+color: gray;
+background-color: white;
+padding: 10px;
+}
+.main-content {
+background-color: white;
+text-align: center;
+color: red;
+}
+.aside-bar {
+list-style-type: none;
+padding: 10px;
+text-align: center;
+}
+.aside-bar li {
+padding: 10px;
+font-size: 20px;
+}
+#main-image {
+border-style: solid;
+border-color: black;
+} 
